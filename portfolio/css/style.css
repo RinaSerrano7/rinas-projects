@@ -1,0 +1,301 @@
+/* Global */
+body{
+    font-family: Arial, Helvetica, sansserif;
+    line-height: 1.6em;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    border-radius: 12px;
+}
+
+.more-button{
+    font-size: 16px;
+    color: #a7a7a7;
+    border: #a7a7a7 2px solid;
+}
+
+.more-button:hover{
+    color: #ffffff;
+    border-color: #ffffff;
+    
+}
+
+/* Header */
+.main-header{
+    background-color: #141414;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #d7e8d5 3px solid;
+}
+
+header li{
+    display: inline;
+}
+
+#nav-anchor a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 7px 20px 20px 20px;
+    padding: 20px;
+}
+
+#nav-anchor a:hover{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 17px 20px 20px 8px;
+}
+
+header #brand{
+    float: left;
+}
+
+header #brand h1{
+    font-size: 40px;
+    margin-top: 7px;
+    color: #ffffff;
+}
+
+header nav{
+    float: right;
+    margin-top: 15px;
+}
+
+.current{
+    font-weight: bold;
+}
+
+.section-bg{
+    background-color: #9b9b9b;
+}
+
+/* Showcase */
+#image-section{
+    background-image: url('../images/showcase.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#image-text h1{
+    text-align: left;
+    font-size: 100px;
+    margin-top: 180px;
+}
+
+#image-text p{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: left;
+    color: white;
+}
+
+/* Gallery */
+.section-bg h1{
+    padding: 20px;
+}
+
+.page-title{
+    background-color: #141414;
+    font-size: 30px;
+    color: #ffffff;
+    border-bottom: #d7e8d5 3px solid;
+    border-top: #d7e8d5 3px solid;
+    min-height: 70px;
+    margin-bottom: 30px;
+}
+
+#gallery .box-gallery{
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+#gallery .box-gallery img{
+    border: 3px grey solid;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+/* About Us */
+.about-bg{
+    background-image: url('../images/showcase.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.article-bg{
+    background-color: #d7e8d5;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+#about h1{
+    padding: 20px;
+}
+
+#about-slogan{
+    text-align: center;
+    color: #000000;
+    font-size: 100px;
+    margin-top: 24px;
+    margin-bottom: 43px; 
+}
+
+#services-tag{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+
+#services-boxes{
+    margin-top: 20px;
+}
+
+#services-boxes .single-box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#services-boxes .single-box img{
+    border: 5px #463c3c solid;
+    border-radius: 15px;
+    width: 100px;
+}
+
+/* Contact Us */
+
+#contact h2{
+    text-align: center;
+    margin-top:30px;
+}
+
+.my-form{
+    float: left;
+    padding: 20px;
+    width: 50%;
+    clear: right;
+}
+
+.my-form .form-group{
+    margin-top:15px;
+    padding-bottom: 20px;
+}
+
+.form-group input[type="text"], .my-form textarea{
+    padding: 8px 183px 8px 8px;
+}
+
+#field-mail{
+    padding: 8px;
+    width: 50%;
+}
+
+#button-form{
+    background-color: none;
+    color: #463c3c;
+    padding: 10px 15px;;
+}
+
+.info{
+    float: right;
+    width: 30%;
+    padding: 7px;
+    margin-top:15px;
+    text-align: center;
+}
+
+.info img{
+    width: 30px;
+    margin-right: 25px;
+}
+
+#media-info{
+    border-bottom: 3px #ffffff solid;
+    border-top: 3px #ffffff solid;
+    float: right;
+}
+
+/* Footer */
+footer{
+    padding: 7px;
+    text-align: center;
+    border-top: #d7e8d5  3px solid;
+}
+
+/* Media Query */
+@media(max-width: 1236px){
+    #image-text h1, .about-bg{
+        text-align: center;
+        line-height: 1.6em;
+        font-size: 80px;
+    }
+
+    #gallery .box-gallery{
+        width: 40%;
+        margin: 30px;
+    }
+
+    .article-bg, .single-box, .my-form, .info{
+        float: none;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: auto;
+        display: block
+    }
+    #button-form{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 768px){
+    header #brand, header nav, header nav li, 
+    #gallery .box-gallery, #about-slogan{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #image-text h1{
+        text-align: center;
+        line-height: 1.6em;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+

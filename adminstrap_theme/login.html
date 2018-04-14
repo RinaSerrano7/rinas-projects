@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Admin Area | Account Login</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/package/build/build.css" rel="stylesheet">
+        <script src="https://cdn.ckeditor.com/4.9.1/standard/ckeditor.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand" href="#">AdminStrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault"></div>
+        </nav>
+
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="my-2 text-center">
+                            Admin Area 
+                            <small>
+                                Account Login
+                            </small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="main">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <form id="login" action="index.html" class="card bg-light">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="check">
+                                <label class="form-check-label" for="check">Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-light">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <p class="p-auto m-0">Copyright AdminStrap, &copy; 2018</p>
+        </footer>
+
+        
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script> 
+            CKEDITOR.replace( 'editor1' ); 
+        </script>
+    </body>
+
+</html>
